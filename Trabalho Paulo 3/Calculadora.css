@@ -1,0 +1,134 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;   
+}
+
+.calc{
+    border: solid 1px;
+    padding: 25px;
+    border-radius: 15px;
+    background-color: black;
+}
+
+.container-calc {
+    height: 50vh;
+    width: 50vh;
+    display: grid;
+    grid-template-areas:
+        "i0 i0 i0 i0"
+        "i1 i2 i3 i4"
+        "i5 i6 i7 i8"
+        "i9 i10 i11 i12"
+        "i13 i14 i14 i15"
+    ;
+    grid-gap: 15px;
+}
+
+input {
+    height: 100%;
+    padding: 2px;
+}
+
+button {
+    height: 100%;
+    font-size: larger;
+    box-shadow: 1px 1px red;
+    background-color: rgb(31,31,31);
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+}
+
+
+#i0 {
+    grid-area: i0;
+}
+
+#i1 {
+    grid-area: i1;
+}
+
+#i2 {
+    grid-area: i2;
+}
+
+#i3 {
+    grid-area: i3;
+}
+
+#i4 {
+    grid-area: i4;
+}
+
+#i5 {
+    grid-area: i5;
+}
+
+#i6 {
+    grid-area: i6;
+}
+
+#i7 {
+    grid-area: i7;
+}
+
+#i8 {
+    grid-area: i8;
+}
+
+#i9 {
+    grid-area: i9;
+}
+
+#i10 {
+    grid-area: i10;
+}
+
+#i11 {
+    grid-area: i11;
+}
+
+#i12 {
+    grid-area: i12;
+}
+
+#i13 {
+    grid-area: i13;
+}
+
+#i14 {
+    grid-area: i14;
+
+}
+
+#i15 {
+    grid-area: i15;
+}
+
+@media screen and (max-width: 1024px){
+
+    .container-calc {
+        height: 35vh;
+        width: 35vh;
+        display: grid;
+        grid-template-areas:
+            "i0 i0 i0 i0"
+            "i1 i2 i3 i4"
+            "i5 i6 i7 i8"
+            "i9 i10 i11 i12"
+            "i13 i14 i14 i15"
+        ;
+        grid-gap: 8px;
+        margin-top: 10%;}
+    
+}
